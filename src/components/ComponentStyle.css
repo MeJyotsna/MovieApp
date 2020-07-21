@@ -1,0 +1,65 @@
+/* @import url("//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css"); */
+/* .login-block {
+  background: #de6262; 
+  background: -webkit-linear-gradient(
+    to bottom,
+    #ffb88c,
+    #de6262
+  );
+  background: linear-gradient(
+    to bottom,
+    #ffb88c,
+    #de6262
+  ); 
+  float: left;
+  width: 100%;
+  padding: 115px 0;
+} */
+body {
+  background: -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      from(#ffb88c),
+      to(#de6262)
+    )
+    fixed;
+}
+.cardStyle {
+  width: 260;
+}
+.listStyle {
+  display: flex;
+  flex-wrap: wrap;
+}
+.cardItemStyle {
+  margin-bottom: 25px;
+}
+.mainContainer {
+  padding: 20px;
+  /* margin-top: 20px; */
+}
+.movieList {
+  display: flex;
+}
+.card {
+  width: 95%;
+  border: 2px;
+  border-radius: 15px;
+}
+
+/* watched movie list */
+.card-image {
+  width: 560px;
+  height: 315px;
+  margin: 7px;
+  position: relative;
+}
+.overlay {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 1;
+}

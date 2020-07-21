@@ -1,0 +1,71 @@
+.headerStyle {
+  position: sticky;
+  top: 0;
+  /* background: white; */
+  background: #f9af82;
+  z-index: 1;
+  padding: 12px;
+}
+.navContainer {
+  background: #f9af82;
+}
+.bottomHeader {
+  padding-left: 0px;
+  padding-right: 0px;
+  padding: 10px 0px;
+  border: 1px solid #bcb9b9;
+  box-shadow: 2px 2px 4px 0 #bcb9b9;
+}
+.bottomHeader ul {
+  list-style: none;
+  display: flex;
+  margin: 0px;
+  padding: 0px;
+}
+.bottomHeader li {
+  flex: 1 1 auto;
+}
+.headerLogo {
+  height: 39px;
+  width: auto;
+}
+.searchBar {
+  position: relative !important;
+}
+.searchBar i {
+  position: absolute;
+  top: 11px;
+  right: 13px;
+  font-size: large;
+}
+.rightBar {
+  text-align: center;
+  padding-top: 8px;
+}
+.logoutBar {
+  cursor: pointer;
+}
+.logoutBar :hover {
+  color: red;
+}
+.userClass {
+  text-align: center;
+  padding-top: 1%;
+  font-weight: 500;
+}
+.logo {
+  width: 19%;
+}
+.logoName {
+  padding-top: 2px;
+  font-size: 15px;
+  font-style: oblique;
+  font-weight: 700;
+}
+.watches {
+  text-align: center;
+  cursor: pointer;
+}
+.compLogo {
+  cursor: pointer;
+}
